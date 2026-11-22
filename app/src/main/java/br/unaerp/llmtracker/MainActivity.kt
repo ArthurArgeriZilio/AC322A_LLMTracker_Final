@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.material3.Text
+import br.unaerp.llmtracker.ui.navegacao.AppNavegacao
 import br.unaerp.llmtracker.ui.theme.LlmTrackerTheme
 
 class MainActivity : ComponentActivity() {
@@ -13,7 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             LlmTrackerTheme {
-                Text("LLM Tracker")
+                AppNavegacao()
             }
         }
     }
